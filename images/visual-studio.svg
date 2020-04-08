@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="107" height="73.809" viewBox="0 0 107 73.809">
+  <g id="visual-studio" transform="translate(-0.093)">
+    <g id="logo" transform="translate(21.279)">
+      <path id="Trazado_206" data-name="Trazado 206" d="M82.933,24.372,67.143,19.5,39.581,40.164l-16.6-9.727L16.672,32.88l-.006,25.51,6.282,2.426L39.532,51.1,62.723,68.426l4.438,3.316,15.778-4.854-.006-42.516Z" transform="translate(-16.666 -19.499)" fill="#fff"/>
+      <path id="Trazado_207" data-name="Trazado 207" d="M113.212,175.128,97.44,184.205l15.778,9.148Zm-41.02,3.659.009,10.918,7.879-5.5Z" transform="translate(-64.307 -158.112)" fill="#00c8be"/>
+    </g>
+    <text id="text" transform="translate(0.093 54.809)" fill="#fff" font-size="15" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="3.932" y="15">Visual Studio</tspan></text>
+  </g>
+</svg>

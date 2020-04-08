@@ -1,0 +1,147 @@
+$primary-color: #00C8BE;
+$secondary-color: #EFCA16;
+$l-secondary-color:rgb(228, 215, 154);
+
+body{
+    font-family: 'Montserrat';
+}
+
+
+a{
+    color: black;
+}
+
+nav>a{
+    color: $primary-color;
+}
+.button{
+    background-color: $secondary-color;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-item{
+    padding:0 15px ;
+}
+
+
+h2{
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#intro {
+    padding-top: 90px;
+    p{
+        width: 80%;
+        margin: auto;
+        line-height: 30px;
+    }
+    h1{
+        padding: 20px;
+        font-weight: 500;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+#skills {  
+    background-color: $primary-color; 
+    padding: 30px;
+    margin-top: 50px;
+    h2, p{
+        color: white;
+    }
+
+    img{
+        width: 45px;
+        padding: 20px 0;
+        display: block;
+        margin: auto;
+    }
+
+    .small{
+        width: 126px;
+        height: 101px;
+    
+    }
+
+    .row{
+        width: 70%;
+        margin: auto;
+    }
+
+    hr{
+        border: .5px solid white;
+        width: 50%;
+    }
+
+}
+
+
+#about-me{
+    padding: 50px 0;
+
+    img{
+        width: 80%;
+        margin: auto;
+    }
+
+    p{
+        line-height: 30px;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+}
+
+#my-projects{
+    width: 100%;
+    margin-top: 60px;
+    background-image: url(../images/fondo-projects.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    .card{
+        margin: 60px 30px;
+        padding: 10px;
+        border-radius: 30px;
+        box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.2);
+        border:none;
+        .card-title{
+            font-weight: bold;
+        }
+
+        .card-text{
+            font-size: 15px;
+        }
+        
+        .button{
+            padding: 10px 20px;
+        }
+
+        .view{
+            background: none;
+            color: $secondary-color;
+            border: 1px solid $secondary-color;
+        }
+    }
+
+    .header {
+        padding-top: 30px;
+        margin: auto;
+        h2, p{
+        color: white;
+        }
+        .col-6{
+            margin-left: 80px ;
+        }
+
+ 
+    }
+}

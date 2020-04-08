@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="94.792" viewBox="0 0 99 94.792">
+  <g id="octave" transform="translate(0 3.909)">
+    <g id="octave-2" data-name="octave" transform="translate(1.593 0)">
+      <g id="Grupo_7" data-name="Grupo 7" transform="translate(0 0)">
+        <g id="Grupo_5" data-name="Grupo 5">
+          <path id="Trazado_303" data-name="Trazado 303" d="M24.267,2.256C38.255,4.082,51.225,19.364,53.235,36.391s-7.7,29.348-21.689,27.522S4.588,46.8,2.578,29.778,10.278.43,24.267,2.256Z" transform="translate(0 39.283) rotate(-56)" fill="#fff"/>
+        </g>
+        <path id="Trazado_304" data-name="Trazado 304" d="M19.357,1.8C30.528,3.269,40.894,15.492,42.512,29.1s-6.127,23.45-17.3,21.982S3.677,37.391,2.06,23.782,8.186.331,19.357,1.8Z" transform="translate(10.947 37.47) rotate(-56)" fill="#00c8be"/>
+        <g id="Grupo_6" data-name="Grupo 6" transform="translate(5.119 20.649)">
+          <path id="Trazado_205" data-name="Trazado 205" d="M3.431,0H16.844c1.895,0,3.431,1.19,3.431,2.658V13.29c0,1.468-1.536,2.658-3.431,2.658H3.431C1.536,15.947,0,14.758,0,13.29V2.658C0,1.19,1.536,0,3.431,0Z" fill="#def2f1"/>
+          <path id="Trazado_204" data-name="Trazado 204" d="M3.153,0h9.46c1.741,0,3.153,1.085,3.153,2.424v7.712c0,1.339-1.412,2.424-3.153,2.424H3.153C1.412,12.559,0,11.474,0,10.135V2.424C0,1.085,1.412,0,3.153,0Z" transform="translate(2.183 1.448)" fill="#00c8be"/>
+        </g>
+        <g id="Grupo_8" data-name="Grupo 8" transform="translate(57.144 13.882)">
+          <path id="Trazado_205-2" data-name="Trazado 205" d="M1.885,0H9.253a1.706,1.706,0,0,1,1.885,1.434V7.168A1.706,1.706,0,0,1,9.253,8.6H1.885A1.706,1.706,0,0,1,0,7.168V1.434A1.706,1.706,0,0,1,1.885,0Z" transform="translate(0)" fill="#def2f1"/>
+          <path id="Trazado_204-2" data-name="Trazado 204" d="M1.578,0H6.312A1.44,1.44,0,0,1,7.89,1.24V5.184a1.44,1.44,0,0,1-1.578,1.24H1.578A1.44,1.44,0,0,1,0,5.184V1.24A1.44,1.44,0,0,1,1.578,0Z" transform="translate(1.515 0.933)" fill="#00c8be"/>
+        </g>
+        <g id="Grupo_9" data-name="Grupo 9" transform="translate(51.669 48.18)">
+          <path id="Trazado_205-3" data-name="Trazado 205" d="M2.622,0h10.25c1.448,0,2.622.868,2.622,1.939V9.7c0,1.071-1.174,1.939-2.622,1.939H2.622C1.174,11.634,0,10.766,0,9.7V1.939C0,.868,1.174,0,2.622,0Z" transform="translate(0 0)" fill="#def2f1"/>
+          <path id="Trazado_204-3" data-name="Trazado 204" d="M2.182,0H8.729a1.975,1.975,0,0,1,2.182,1.658V6.933A1.975,1.975,0,0,1,8.729,8.591H2.182A1.975,1.975,0,0,1,0,6.933V1.658A1.975,1.975,0,0,1,2.182,0Z" transform="translate(2.183 1.448)" fill="#00c8be"/>
+        </g>
+      </g>
+    </g>
+    <text id="GNU_Octave" data-name="GNU Octave" transform="translate(0 67.883)" fill="#fff9f9" font-size="15" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="15">GNU Octave</tspan></text>
+  </g>
+</svg>
