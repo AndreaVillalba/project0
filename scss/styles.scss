@@ -17,6 +17,7 @@ a{
     color: $primary-color;
 }
 
+
 main a:hover, #intro a:hover{
     text-decoration: none;
     background-color: $primary-color;
@@ -40,6 +41,9 @@ nav>a{
     font-weight: bold;
     font-size: 14px;
 }
+
+
+ 
 
 .nav-item{
     padding:0 15px ;
@@ -130,7 +134,7 @@ h5{
     background-size: contain;
     background-repeat: no-repeat;
 
-    #first{
+    .project{
         padding-top: 140px;
 
     }
@@ -172,6 +176,15 @@ h5{
     .button{
         margin-right: 30px;
     }
+
+    .view{
+        background-color: white;
+        border: 1px solid $secondary-color;
+        color: $secondary-color;
+    
+    }
+
+ 
 
 }
 

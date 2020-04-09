@@ -119,7 +119,7 @@ h5 {
   background-repeat: no-repeat;
 }
 
-#my-projects #first {
+#my-projects .project {
   padding-top: 140px;
 }
 
@@ -160,6 +160,12 @@ h5 {
 
 #my-projects .button {
   margin-right: 30px;
+}
+
+#my-projects .view {
+  background-color: white;
+  border: 1px solid #EFCA16;
+  color: #EFCA16;
 }
 
 #references {
