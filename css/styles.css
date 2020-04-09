@@ -30,6 +30,10 @@ h2 {
   padding: 10px 0;
 }
 
+h5 {
+  font-weight: bold;
+}
+
 #intro {
   padding-top: 90px;
 }
@@ -50,7 +54,8 @@ h2 {
 }
 
 #skills {
-  background-color: #00C8BE;
+  background: -webkit-gradient(linear, left top, right top, color-stop(44%, #00c8be), to(#96deda));
+  background: linear-gradient(90deg, #00c8be 44%, #96deda 100%);
   padding: 30px;
   margin-top: 50px;
 }
@@ -99,9 +104,9 @@ h2 {
 #my-projects {
   width: 100%;
   margin-top: 60px;
-  background-image: url(../images/fondo-projects.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
+  /*background-image: url(../images/fondo-projects.svg);
+    background-size: contain;
+    background-repeat: no-repeat;*/
 }
 
 #my-projects .card {
@@ -132,15 +137,51 @@ h2 {
 }
 
 #my-projects .header {
-  padding-top: 30px;
+  text-align: center;
+  padding: 30px;
+  width: 70%;
+  color: white;
+  margin: auto;
+  background-color: #EFCA16;
+}
+
+#references {
+  /*background: url(../images/fondo-backg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+  background-color: white;
+}
+
+#references .title {
+  background: -webkit-gradient(linear, left top, right top, color-stop(44%, #00c8be), to(#96deda));
+  background: linear-gradient(90deg, #00c8be 44%, #96deda 100%);
+  color: white;
+  padding-bottom: 120px;
+  padding-top: 40px;
+}
+
+#references .row {
+  padding: 50px;
+  background: white;
+  border-radius: 20px;
+  -webkit-box-shadow: -1px 0px 31px -6px rgba(0, 0, 0, 0.3);
+          box-shadow: -1px 0px 31px -6px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  margin: auto;
+  position: relative;
+  top: -115px;
+}
+
+#references .second {
+  top: -40px;
+}
+
+#references img {
+  width: 50%;
   margin: auto;
 }
 
-#my-projects .header h2, #my-projects .header p {
-  color: white;
-}
-
-#my-projects .header .col-6 {
-  margin-left: 80px;
+#references .cargo {
+  font-size: 14px;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,8 @@
 $primary-color: #00C8BE;
+$l-primary-color: rgb(209, 255, 253);
+
 $secondary-color: #EFCA16;
-$l-secondary-color:rgb(228, 215, 154);
+$l-secondary-color:rgb(250, 243, 210);
 
 body{
     font-family: 'Montserrat';
@@ -35,6 +37,10 @@ h2{
     padding: 10px 0;
 }
 
+h5{
+    font-weight: bold;
+}
+
 #intro {
     padding-top: 90px;
     p{
@@ -53,7 +59,9 @@ h2{
 }
 
 #skills {  
-    background-color: $primary-color; 
+
+    background: linear-gradient(90deg, rgba(0,200,190,1) 44%, rgba(150,222,218,1) 100%);
+    
     padding: 30px;
     margin-top: 50px;
     h2, p{
@@ -104,9 +112,9 @@ h2{
 #my-projects{
     width: 100%;
     margin-top: 60px;
-    background-image: url(../images/fondo-projects.svg);
+    /*background-image: url(../images/fondo-projects.svg);
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     .card{
         margin: 60px 30px;
         padding: 10px;
@@ -133,15 +141,50 @@ h2{
     }
 
     .header {
-        padding-top: 30px;
-        margin: auto;
-        h2, p{
+        text-align: center;
+        padding: 30px;
+        width: 70%;
         color: white;
-        }
-        .col-6{
-            margin-left: 80px ;
-        }
+        margin: auto;
+        background-color: $secondary-color;
+    }
 
- 
+}
+
+#references{
+    /*background: url(../images/fondo-backg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    background-color: white ;
+
+    .title{
+        background: linear-gradient(90deg, rgba(0,200,190,1) 44%, rgba(150,222,218,1) 100%);
+
+        color: white;
+        padding-bottom: 120px;
+        padding-top: 40px;
+    }
+    .row{
+        padding:50px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: -1px 0px 31px -6px rgba(0, 0, 0, 0.3);
+        width: 90%;
+        margin: auto;
+        position: relative;
+        top: -115px;
+    }
+
+    .second{
+        top: -40px;
+    }
+    img{
+        width: 50%;
+        margin: auto;
+        
+    }
+
+    .cargo{
+        font-size: 14px;
     }
 }
