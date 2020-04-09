@@ -284,38 +284,38 @@ footer p {
 }
 
 /*---------------------------------- PROJECT1.HTML --------------------------------------*/
-#p1-intro {
+#p-intro {
   background-color: #00C8BE;
   height: 500px;
 }
 
-#p1-intro .row {
+#p-intro .row {
   height: 600px;
 }
 
-#p1-intro .title {
+#p-intro .title {
   color: white;
   margin: 140px 0 0 40px;
 }
 
-#p1-intro .title hr {
+#p-intro .title hr {
   border-top: 3px solid #EFCA16;
   width: 60%;
   margin-left: 0;
 }
 
-#p1-intro .title h2 {
-  line-height: 40px;
+#p-intro .title h2 {
+  line-height: 46px;
 }
 
-#p1-intro .title h1 {
+#p-intro .title h1 {
   font-size: 14px;
   font-weight: bold;
   margin: 0;
   letter-spacing: 3px;
 }
 
-#p1-intro img {
+#p-intro img {
   padding: 70px 0;
   width: 100%;
 }
