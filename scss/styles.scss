@@ -112,9 +112,9 @@ h5{
 #my-projects{
     width: 100%;
     margin-top: 60px;
-    /*background-image: url(../images/fondo-projects.svg);
+    background-image: url(../images/fondo-projects.svg);
     background-size: contain;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     .card{
         margin: 60px 30px;
         padding: 10px;
@@ -141,12 +141,9 @@ h5{
     }
 
     .header {
-        text-align: center;
         padding: 30px;
-        width: 70%;
         color: white;
-        margin: auto;
-        background-color: $secondary-color;
+        margin-left: 80px;
     }
 
 }
@@ -156,9 +153,10 @@ h5{
     background-size: cover;
     background-repeat: no-repeat;*/
     background-color: white ;
+    margin-top: 90px;
 
     .title{
-        background: linear-gradient(90deg, rgba(0,200,190,1) 44%, rgba(150,222,218,1) 100%);
+        background: $primary-color;
 
         color: white;
         padding-bottom: 120px;
@@ -179,8 +177,10 @@ h5{
         top: -40px;
     }
     img{
-        width: 50%;
+        width: 60%;
         margin: auto;
+        background-color: $secondary-color;
+        padding: 10px;
         
     }
 
