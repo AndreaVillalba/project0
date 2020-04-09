@@ -129,35 +129,48 @@ h5{
     background-image: url(../images/fondo-projects.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    .card{
-        margin: 60px 30px;
-        padding: 10px;
-        border-radius: 30px;
-        box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.2);
-        border:none;
-        .card-title{
-            font-weight: bold;
-        }
 
-        .card-text{
-            font-size: 15px;
-        }
-        
-        .button{
-            padding: 10px 20px;
-        }
+    #first{
+        padding-top: 140px;
 
-        .view{
-            background: none;
-            color: $secondary-color;
-            border: 1px solid $secondary-color;
-        }
     }
-
+   
     .header {
         padding: 30px;
         color: white;
         margin-left: 80px;
+    }
+
+    p{
+        font-size: 15px;
+        line-height: 30px;
+        width: 85%;
+    }
+
+    img{
+        width: 100%;
+        background-color: $secondary-color;
+        border-radius: 30px;
+        padding: 10px;
+    }
+
+
+    ul{
+        display: flex;
+        padding: 15px 0;
+        background: url(/images/fondo-languages.svg);
+        background-size: 67% 100%;
+        background-repeat: no-repeat;
+
+        li{
+            padding: 7px 30px;
+            font-size: 15px;
+            list-style: none;
+        }
+    }
+
+    .button{
+        margin-right: 30px;
     }
 
 }
@@ -206,3 +219,4 @@ h5{
         font-size: 14px;
     }
 }
+

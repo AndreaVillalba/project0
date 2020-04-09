@@ -119,37 +119,47 @@ h5 {
   background-repeat: no-repeat;
 }
 
-#my-projects .card {
-  margin: 60px 30px;
-  padding: 10px;
-  border-radius: 30px;
-  -webkit-box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
-  border: none;
-}
-
-#my-projects .card .card-title {
-  font-weight: bold;
-}
-
-#my-projects .card .card-text {
-  font-size: 15px;
-}
-
-#my-projects .card .button {
-  padding: 10px 20px;
-}
-
-#my-projects .card .view {
-  background: none;
-  color: #EFCA16;
-  border: 1px solid #EFCA16;
+#my-projects #first {
+  padding-top: 140px;
 }
 
 #my-projects .header {
   padding: 30px;
   color: white;
   margin-left: 80px;
+}
+
+#my-projects p {
+  font-size: 15px;
+  line-height: 30px;
+  width: 85%;
+}
+
+#my-projects img {
+  width: 100%;
+  background-color: #EFCA16;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+#my-projects ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 0;
+  background: url(/images/fondo-languages.svg);
+  background-size: 67% 100%;
+  background-repeat: no-repeat;
+}
+
+#my-projects ul li {
+  padding: 7px 30px;
+  font-size: 15px;
+  list-style: none;
+}
+
+#my-projects .button {
+  margin-right: 30px;
 }
 
 #references {
