@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f6c1e91c08.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="sticky-top">
 
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid bg-white">
+            <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#">Andrea's Portfolio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -28,27 +29,30 @@
                     <li class="nav-item">
                       <a class="nav-link" href="#skills">my skills</a>
                     </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#my-projects" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        my projects
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">No-show predictor</a>
-                        <a class="dropdown-item" href="#">Banana</a>
-                        <a class="dropdown-item" href="#">Scooter App</a>
-                      </div>
-                    </li>
-    
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">contact me</a>
-                      </li>
+                      <a class="nav-link" href="#my-projects">my projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#references">references</a>
+                    </li>
+
                   </ul>
                 </div>
               </nav>
     
 
         </div>
-       
+    </header>
+
+      <div class="icon-bar">
+        <a href="https://api.whatsapp.com/send?phone=+50768570135" class="whatsapp"><i class="fab fa-whatsapp"></i></a> 
+        <a href="mailto:andreavillalbag@hotmail.com" class="mail"><i class="far fa-envelope"></i></a> 
+        <a href="https://www.linkedin.com/in/andreavillalbag/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/AndreaVillalba" class="github"><i class="fa fa-github"></i></a> 
+      </div>
+
         <section id="intro">
             <div class="container">
                 <div class="row text-center">
@@ -64,7 +68,6 @@
                     </div>
             </div>
         </section>
-      </header>
 
       <main>
       <section id="skills">

@@ -4,6 +4,9 @@ $l-primary-color: rgb(209, 255, 253);
 $secondary-color: #EFCA16;
 $l-secondary-color:rgb(250, 243, 210);
 
+header .container-fluid{
+    order: 10;
+}
 body{
     font-family: 'Montserrat';
 }
@@ -233,3 +236,54 @@ h5{
     }
 }
 
+/*sticky social media bar */
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+ 
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: $secondary-color;
+  }
+  
+
+  .mail {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .whatsapp {
+    background: #25D366;
+    color: white;
+  }
+
+  .github {
+    background: #24292e;
+    color: white;
+    
+  }
+  
+  .content {
+    margin-left: 75px;
+    font-size: 30px;
+  }
+ 
