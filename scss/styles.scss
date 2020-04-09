@@ -1,9 +1,9 @@
+$d-primary-color: #2E9B9B;
 $primary-color: #00C8BE;
-$l-primary-color: rgb(209, 255, 253);
+$l-primary-color: rgb(62, 221, 213);
 
 $secondary-color: #EFCA16;
 $l-secondary-color:rgb(250, 243, 210);
-
 header .container-fluid{
     order: 10;
 }
@@ -61,6 +61,7 @@ h2{
 h5{
     font-weight: bold;
 }
+/*---------------------------------- INDEX --------------------------------------*/
 
 #intro {
     padding-top: 90px;
@@ -181,6 +182,7 @@ h5{
     }
 
     .view{
+        @extend .button;
         background-color: white;
         border: 1px solid $secondary-color;
         color: $secondary-color;
@@ -197,10 +199,6 @@ h5{
     background-repeat: no-repeat;*/
     background-color: white ;
     margin-top: 90px;
-
-    .testimonial{
-        flex-direction: row;
-    }
 
     .title{
         background: $primary-color;
@@ -234,7 +232,14 @@ h5{
     .cargo{
         font-size: 14px;
     }
+
+    p em{
+        font-size: 15px;
+        line-height: 30px;
+
+    }
 }
+
 
 /*sticky social media bar */
 
@@ -253,31 +258,31 @@ h5{
     padding: 10px;
     transition: all 0.3s ease;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
   }
   
   .icon-bar a:hover {
     background-color: $secondary-color;
   }
   
+  .whatsapp {
+    background: $l-primary-color;
+    color: white;
+  }
 
   .mail {
-    background: #55ACEE;
+    background:$primary-color;
     color: white;
   }
   
   .linkedin {
-    background: #007bb5;
+    background: $d-primary-color;
     color: white;
   }
 
-  .whatsapp {
-    background: #25D366;
-    color: white;
-  }
 
   .github {
-    background: #24292e;
+    background: rgb(34, 114, 114);
     color: white;
     
   }
@@ -286,4 +291,73 @@ h5{
     margin-left: 75px;
     font-size: 30px;
   }
- 
+
+  /*footer*/
+footer{
+    background-color:  #24292e;
+    margin: 0;
+    padding:18px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    p{
+        margin:0;
+    }
+}
+
+
+/*---------------------------------- PROJECT1.HTML --------------------------------------*/
+ #p1-intro{
+     background-color: $primary-color;
+     height: 500px;
+     .row{
+         height: 600px;
+     }
+
+     .title{
+        color: white;
+        margin:140px 0 0 40px;
+        hr{
+            border-top: 3px solid $secondary-color;
+            width: 60%;
+            margin-left: 0;
+         }
+         h2{  
+             line-height: 40px;
+
+         }
+         h1{
+             font-size: 14px;
+             font-weight: bold;
+             margin: 0;
+             letter-spacing: 3px;
+         }
+
+     }
+  
+
+     img{
+         padding: 70px 0;
+         width: 100%;
+
+     }
+ }
+
+ #content{
+     .row{
+         width: 75%;
+         margin: auto;
+     }
+
+     h3{
+         margin-top: 30px;
+         font-weight: bolder;
+         font-size: 35px;
+         color: $primary-color;
+     }
+
+     p{
+         margin:30px 0;
+         line-height: 30px;
+     }
+ }

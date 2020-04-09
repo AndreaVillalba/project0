@@ -26,7 +26,7 @@ nav > a {
   color: #00C8BE;
 }
 
-.button {
+.button, #my-projects .view {
   background-color: #EFCA16;
   color: white;
   padding: 10px 35px;
@@ -50,6 +50,7 @@ h5 {
   font-weight: bold;
 }
 
+/*---------------------------------- INDEX --------------------------------------*/
 #intro {
   padding-top: 90px;
 }
@@ -164,7 +165,7 @@ h5 {
   list-style: none;
 }
 
-#my-projects .button {
+#my-projects .button, #my-projects .view {
   margin-right: 30px;
 }
 
@@ -180,13 +181,6 @@ h5 {
     background-repeat: no-repeat;*/
   background-color: white;
   margin-top: 90px;
-}
-
-#references .testimonial {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
 #references .title {
@@ -223,6 +217,11 @@ h5 {
   font-size: 14px;
 }
 
+#references p em {
+  font-size: 15px;
+  line-height: 30px;
+}
+
 /*sticky social media bar */
 .icon-bar {
   position: fixed;
@@ -238,35 +237,103 @@ h5 {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .icon-bar a:hover {
   background-color: #EFCA16;
 }
 
+.whatsapp {
+  background: #3eddd5;
+  color: white;
+}
+
 .mail {
-  background: #55ACEE;
+  background: #00C8BE;
   color: white;
 }
 
 .linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.whatsapp {
-  background: #25D366;
+  background: #2E9B9B;
   color: white;
 }
 
 .github {
-  background: #24292e;
+  background: #227272;
   color: white;
 }
 
 .content {
   margin-left: 75px;
   font-size: 30px;
+}
+
+/*footer*/
+footer {
+  background-color: #24292e;
+  margin: 0;
+  padding: 18px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/*---------------------------------- PROJECT1.HTML --------------------------------------*/
+#p1-intro {
+  background-color: #00C8BE;
+  height: 500px;
+}
+
+#p1-intro .row {
+  height: 600px;
+}
+
+#p1-intro .title {
+  color: white;
+  margin: 140px 0 0 40px;
+}
+
+#p1-intro .title hr {
+  border-top: 3px solid #EFCA16;
+  width: 60%;
+  margin-left: 0;
+}
+
+#p1-intro .title h2 {
+  line-height: 40px;
+}
+
+#p1-intro .title h1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+#p1-intro img {
+  padding: 70px 0;
+  width: 100%;
+}
+
+#content .row {
+  width: 75%;
+  margin: auto;
+}
+
+#content h3 {
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: 35px;
+  color: #00C8BE;
+}
+
+#content p {
+  margin: 30px 0;
+  line-height: 30px;
 }
 /*# sourceMappingURL=styles.css.map */
