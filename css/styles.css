@@ -6,6 +6,16 @@ a {
   color: black;
 }
 
+.navbar a:hover {
+  color: #00C8BE;
+}
+
+main a:hover, #intro a:hover {
+  text-decoration: none;
+  background-color: #00C8BE;
+  color: white;
+}
+
 nav > a {
   color: #00C8BE;
 }
@@ -148,6 +158,13 @@ h5 {
     background-repeat: no-repeat;*/
   background-color: white;
   margin-top: 90px;
+}
+
+#references .testimonial {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 #references .title {

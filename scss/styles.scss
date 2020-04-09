@@ -13,9 +13,23 @@ a{
     color: black;
 }
 
+.navbar a:hover{
+    color: $primary-color;
+}
+
+main a:hover, #intro a:hover{
+    text-decoration: none;
+    background-color: $primary-color;
+    color: white;
+}
+
+
 nav>a{
     color: $primary-color;
 }
+
+
+
 .button{
     background-color: $secondary-color;
     color: white;
@@ -154,6 +168,10 @@ h5{
     background-repeat: no-repeat;*/
     background-color: white ;
     margin-top: 90px;
+
+    .testimonial{
+        flex-direction: row;
+    }
 
     .title{
         background: $primary-color;
