@@ -286,7 +286,7 @@ footer p {
 /*---------------------------------- PROJECT1.HTML --------------------------------------*/
 #p-intro {
   background-color: #00C8BE;
-  height: 500px;
+  height: 100vh;
 }
 
 #p-intro .row {
@@ -317,7 +317,7 @@ footer p {
 
 #p-intro img {
   padding: 70px 0;
-  width: 100%;
+  width: 94%;
 }
 
 #content .row {

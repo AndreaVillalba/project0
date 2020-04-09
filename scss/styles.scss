@@ -309,7 +309,7 @@ footer{
 /*---------------------------------- PROJECT1.HTML --------------------------------------*/
  #p-intro{
      background-color: $primary-color;
-     height: 500px;
+     height: 100vh;
      .row{
          height: 600px;
      }
@@ -338,8 +338,7 @@ footer{
 
      img{
          padding: 70px 0;
-         width: 100%;
-
+         width: 94%;
      }
  }
 
