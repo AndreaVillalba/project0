@@ -356,6 +356,28 @@ footer .top a {
   width: 70%;
 }
 
+#paper {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(18%, #5de1da), color-stop(81%, #00c8be));
+  background: linear-gradient(360deg, #5de1da 18%, #00c8be 81%);
+  text-align: center;
+  margin: 50px 0;
+}
+
+#paper p {
+  margin: 0;
+  padding-top: 40px;
+  font-size: 27px;
+  font-size: 27px;
+  color: white;
+  font-weight: bolder;
+}
+
+#paper a {
+  margin-bottom: 40px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
 /*----- dropdown links projects---- */
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
