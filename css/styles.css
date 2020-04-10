@@ -408,4 +408,79 @@ footer .top a {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/*----------------MEDIA-------------*/
+@media screen and (max-width: 800px) {
+  .icon-bar a {
+    font-size: 13px;
+    padding: 7px;
+  }
+  p {
+    font-size: 15px;
+  }
+  #intro h1 {
+    font-size: 32px;
+  }
+  #intro p {
+    width: 82%;
+  }
+  #intro img {
+    width: 73%;
+    margin-top: 30px;
+  }
+  #skills p {
+    width: 90%;
+    margin: auto;
+  }
+  #about-me {
+    width: 85%;
+    margin: auto;
+  }
+  #my-projects {
+    background-image: none;
+  }
+  #my-projects .header {
+    background-color: #2E9B9B;
+    background-image: url(../images/fondo-projects.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  #my-projects .header p {
+    width: 100%;
+  }
+  #my-projects .header h2 {
+    padding-top: 68px;
+  }
+  #my-projects .header .col-6 {
+    max-width: 100%;
+  }
+  #my-projects .project {
+    padding-top: 78px;
+    width: 95%;
+    margin: auto;
+  }
+  #my-projects .project h3 {
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  #my-projects .project p {
+    margin: 0;
+    width: 100%;
+  }
+  #my-projects .project ul {
+    background-size: 102% 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #my-projects .project ul li {
+    padding: 7px 16px;
+    font-size: 14px;
+  }
+  #my-projects .project .button, #my-projects .project .view {
+    margin-right: 12px;
+    padding: 12px 28px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
