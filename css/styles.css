@@ -50,6 +50,10 @@ h5 {
   font-weight: bold;
 }
 
+p {
+  font-size: 16px;
+}
+
 /*---------------------------------- INDEX --------------------------------------*/
 #intro {
   padding-top: 90px;
@@ -334,6 +338,7 @@ footer p {
 
 #content p {
   margin: 30px 0;
-  line-height: 30px;
+  line-height: 36px;
+  font-size: 18px;
 }
 /*# sourceMappingURL=styles.css.map */
