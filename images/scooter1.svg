@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1069.656" height="863.739" viewBox="0 0 1069.656 863.739">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1103.664" height="826.107" viewBox="0 0 1103.664 826.107">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="gray" stop-opacity="0.251"/>
@@ -6,21 +6,22 @@
       <stop offset="1" stop-color="gray" stop-opacity="0.102"/>
     </linearGradient>
   </defs>
-  <g id="scooter1" transform="translate(-891.057 -5838.198)">
-    <path id="Trazado_663" data-name="Trazado 663" d="M7089.682,5435.362c146.174,47.153,187.086,42.859,303.554,46.844,39.8,1.362,164.117-15.8,280.136,0,55.573,7.569,138.8,73.688,146.117,172.377,6.13,112.177-116.468,222.821-49.039,318.754,55.169,93.788,74.882,239.325-14.405,281.975-94.094,55.169-398.443-75.7-576.21-65.589-50.128,1.191-328.581,40.04-407.077-73.154s71.772-274.232,71.772-317.014c0-141.459-67.788-114.629-71.772-263.585C6774.9,5375.188,7019.653,5390.844,7089.682,5435.362Z" transform="translate(-5859 433)" fill="#fff"/>
+  <g id="scooter1" transform="translate(-854.604 -5876.909)">
+    <path id="Trazado_666" data-name="Trazado 666" d="M6715.344,5609.782c75.939-134.858,305.981-281.056,422.81-199.222s146.088,79.749,263.971,70.318S7663.49,5374.11,7752.2,5511.09s-61.109,191.61-66.923,282.918c-3.7,58.053,168.522,222.936,20.224,310.86s-328.135,58.744-470.833,68.858c-73.347,5.2-276.772,70.578-378.3,20.542s88.344-117.125,0-161.529C6669.162,5938.646,6639.4,5744.64,6715.344,5609.782Z" transform="translate(-5821.949 490)" fill="#fff"/>
+    <path id="Trazado_665" data-name="Trazado 665" d="M112.1,0H725.512c61.91,0,112.1,20.5,112.1,45.788V544.843c0,25.288-50.188,45.788-112.1,45.788H112.1c-61.91,0-112.1-20.5-112.1-45.788V45.788C0,20.5,50.188,0,112.1,0Z" transform="translate(987.5 6009.741)" fill="#eef1f9" opacity="0.88"/>
     <g id="scooter1-2" data-name="scooter1" transform="translate(-5 -62)">
       <g id="scooter1-3" data-name="scooter1" transform="translate(1033 6048)">
         <g id="Grupo_18" data-name="Grupo 18" opacity="0.5">
           <path id="Trazado_513" data-name="Trazado 513" d="M0,0V563.164H812.11V0Z" fill="url(#linear-gradient)"/>
         </g>
-        <rect id="Rectángulo_115" data-name="Rectángulo 115" width="791.454" height="518.106" transform="translate(12.047 35.046)" fill="#fffbe9"/>
-        <rect id="Rectángulo_116" data-name="Rectángulo 116" width="791.454" height="38.118" transform="translate(12.047 10.4)" fill="#f5f5f5"/>
+        <path id="Trazado_664" data-name="Trazado 664" d="M0,0H791.454V518.106H0Z" transform="translate(12.047 35.046)" fill="#fff"/>
+        <rect id="Rectángulo_116" data-name="Rectángulo 116" width="791.454" height="38.118" transform="translate(12.047 10.4)" fill="#00c8be"/>
         <circle id="Elipse_75" data-name="Elipse 75" cx="9.239" cy="9.239" r="9.239" transform="translate(32.924 19.639)" fill="#ff5252"/>
         <circle id="Elipse_76" data-name="Elipse 76" cx="9.239" cy="9.239" r="9.239" transform="translate(58.343 19.639)" fill="#ff0"/>
         <circle id="Elipse_77" data-name="Elipse 77" cx="9.239" cy="9.239" r="9.239" transform="translate(83.752 19.639)" fill="#69f0ae"/>
         <rect id="Rectángulo_117" data-name="Rectángulo 117" width="145.555" height="15.594" transform="translate(333.56 173.571)" fill="#efca16" opacity="0.5"/>
         <rect id="Rectángulo_118" data-name="Rectángulo 118" width="159.414" height="15.594" transform="translate(228.444 240.568)" fill="#e0e0e0"/>
-        <rect id="Rectángulo_119" data-name="Rectángulo 119" width="159.414" height="15.594" transform="translate(584.241 256.174) rotate(180)" fill="#3ad29f"/>
+        <rect id="Rectángulo_119" data-name="Rectángulo 119" width="159.414" height="15.594" transform="translate(584.241 256.174) rotate(180)" fill="#00c8be"/>
         <rect id="Rectángulo_120" data-name="Rectángulo 120" width="355.796" height="15.594" transform="translate(227.859 274.067)" fill="#e0e0e0"/>
         <rect id="Rectángulo_121" data-name="Rectángulo 121" width="355.796" height="15.594" transform="translate(227.859 307.576)" fill="#e0e0e0"/>
         <rect id="Rectángulo_122" data-name="Rectángulo 122" width="147.864" height="28.879" transform="translate(331.836 379.193)" fill="url(#linear-gradient)"/>

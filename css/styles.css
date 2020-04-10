@@ -43,7 +43,7 @@ nav > a {
 
 h2 {
   font-weight: bold;
-  padding: 10px 0;
+  padding: 30px 0px 10px 0;
 }
 
 h5 {
@@ -290,16 +290,10 @@ footer p {
 /*---------------------------------- PROJECT1.HTML --------------------------------------*/
 #p-intro {
   background-color: #00C8BE;
-  height: 100vh;
-}
-
-#p-intro .row {
-  height: 600px;
 }
 
 #p-intro .title {
   color: white;
-  margin: 140px 0 0 40px;
 }
 
 #p-intro .title hr {
@@ -320,7 +314,7 @@ footer p {
 }
 
 #p-intro img {
-  padding: 70px 0;
+  padding: 70px  0;
   width: 94%;
 }
 
