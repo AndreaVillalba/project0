@@ -13,7 +13,7 @@ a {
 }
 
 .navbar a:hover {
-  color: #00C8BE;
+  color: #00C8BE !important;
 }
 
 .button, #my-projects .view {
@@ -34,7 +34,7 @@ a {
 }
 
 nav > a {
-  color: #00C8BE;
+  color: #00C8BE !important;
 }
 
 .nav-item {
@@ -415,11 +415,14 @@ footer .top a {
     font-size: 13px;
     padding: 7px;
   }
-  p {
+  #my-projects p, #about-me p {
     font-size: 15px;
+    text-align: justify;
+    line-height: 30px;
   }
   #intro h1 {
     font-size: 32px;
+    font-weight: bold;
   }
   #intro p {
     width: 82%;
@@ -435,12 +438,13 @@ footer .top a {
   #about-me {
     width: 85%;
     margin: auto;
+    text-align: center;
   }
   #my-projects {
     background-image: none;
   }
   #my-projects .header {
-    background-color: #2E9B9B;
+    background-color: #00C8BE;
     background-image: url(../images/fondo-projects.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -481,6 +485,54 @@ footer .top a {
   #my-projects .project .button, #my-projects .project .view {
     margin-right: 12px;
     padding: 12px 28px;
+  }
+  #references .button, #references #my-projects .view, #my-projects #references .view {
+    padding: 10px 33px;
+  }
+  #references p {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+  #references .row {
+    padding: 18px;
+  }
+  #p-intro .title {
+    margin-top: 42px;
+  }
+  #p-intro .title h2 {
+    font-size: 26px;
+    width: 80%;
+    margin: auto;
+  }
+  #p-intro .col-md-5 {
+    text-align: center;
+  }
+  #content .texto {
+    width: 82%;
+  }
+  #content img {
+    width: 100%;
+  }
+  #content .fotos {
+    width: 80%;
+    margin: auto;
+  }
+  #content .overview img {
+    margin-top: 23px;
+  }
+  #paper p {
+    font-size: 20px;
+    width: 86%;
+    margin: auto;
+  }
+  /*----menu---*/
+  .dropdown {
+    left: 15px;
+  }
+  .dropdown-content {
+    display: none !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */

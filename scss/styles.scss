@@ -17,7 +17,7 @@ a{
 }
 
 .navbar a:hover{
-    color: $primary-color;
+    color: $primary-color !important;
 }
 
 
@@ -41,12 +41,8 @@ a{
 
 
 nav>a{
-    color: $primary-color;
+    color: $primary-color !important;
 }
-
-
-
-
 
  
 
@@ -447,13 +443,18 @@ footer{
         font-size: 13px;
         padding: 7px;
       }
-     
-    p{
+
+    #my-projects p, #about-me p{
         font-size:15px;
+        text-align: justify;
+        line-height: 30px;
     }
+
+
     #intro{
         h1{
             font-size: 32px;
+            font-weight: bold;
         }
           p{
               width: 82%;
@@ -478,12 +479,13 @@ footer{
       #about-me{
         width: 85%;
         margin: auto;
+        text-align: center;
       }
 
       #my-projects{
           background-image: none;
           .header{
-              background-color: $d-primary-color;
+              background-color: $primary-color;
               background-image: url(../images/fondo-projects.svg);
               background-size: contain;
               background-repeat: no-repeat;
@@ -530,4 +532,75 @@ footer{
               }
           }
       }
+
+      #references{
+        .button{padding: 10px 33px}
+        p{ 
+            width: 90%;
+            margin: auto;
+            margin-bottom: 30px;
+            line-height: 30px;
+        }
+
+        .row{
+            padding:18px;
+        }
+      }
+
+
+      #p-intro{
+          .title{
+              margin-top: 42px;
+              h2{
+                font-size: 26px;
+                width: 80%;
+                margin: auto;
+              }
+          }
+
+          .col-md-5{
+            text-align: center;
+          }
+      }
+
+
+      #content{
+          .texto{
+            width: 82%;
+          }
+
+          img{
+            width: 100%;
+          }
+
+          .fotos{
+            width: 80%;
+            margin: auto;
+          }
+
+          .overview{
+              img{
+                margin-top: 23px;
+                }
+              
+          }
+      }
+
+      #paper{
+          p{
+            font-size: 20px;
+            width: 86%;
+            margin: auto;
+          }
+      }
+
+      /*----menu---*/
+      .dropdown{
+        left: 15px;
+      }
+      .dropdown-content{
+          display: none !important;
+      }
+
+
   }
