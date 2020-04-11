@@ -169,6 +169,10 @@ p {
   list-style: none;
 }
 
+#my-projects .dos li {
+  padding: 7px 55px;
+}
+
 #my-projects .button, #my-projects .view {
   margin-right: 30px;
 }
@@ -413,7 +417,7 @@ footer .top a {
 @media screen and (max-width: 800px) {
   .icon-bar a {
     font-size: 13px;
-    padding: 7px;
+    padding: 8px;
   }
   #my-projects p, #about-me p {
     font-size: 15px;
@@ -422,7 +426,7 @@ footer .top a {
   }
   #intro h1 {
     font-size: 32px;
-    font-weight: bold;
+    font-weight: 500;
   }
   #intro p {
     width: 82%;
@@ -434,6 +438,9 @@ footer .top a {
   #skills p {
     width: 90%;
     margin: auto;
+  }
+  #skills .row {
+    width: 100%;
   }
   #about-me {
     width: 85%;

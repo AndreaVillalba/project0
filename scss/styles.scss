@@ -179,6 +179,10 @@ p{
         }
     }
 
+    .dos li{
+        padding: 7px 55px;
+    }
+
     .button{
         margin-right: 30px;
     }
@@ -441,7 +445,7 @@ footer{
 
     .icon-bar a {
         font-size: 13px;
-        padding: 7px;
+        padding: 8px;
       }
 
     #my-projects p, #about-me p{
@@ -454,7 +458,7 @@ footer{
     #intro{
         h1{
             font-size: 32px;
-            font-weight: bold;
+            font-weight: 500;
         }
           p{
               width: 82%;
@@ -472,6 +476,10 @@ footer{
           p{
             width: 90%;
             margin: auto;
+          }
+
+          .row{
+              width: 100%;
           }
        
       }
