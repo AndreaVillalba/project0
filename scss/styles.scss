@@ -449,7 +449,10 @@ footer{
 
   /*----------------MEDIA-------------*/
   @media screen and (max-width: 800px){
-      
+    
+    video{
+        width: 100%;
+    }
 
     .icon-bar a {
         font-size: 16px;
