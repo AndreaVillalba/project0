@@ -16,7 +16,7 @@ a {
   color: #00C8BE !important;
 }
 
-.button, #my-projects .view {
+.button, .view {
   background-color: #EFCA16;
   color: white;
   padding: 10px 35px;
@@ -27,7 +27,7 @@ a {
   font-size: 14px;
 }
 
-.button:hover, #my-projects .view:hover, #intro a:hover {
+.button:hover, .view:hover, #intro a:hover {
   text-decoration: none;
   background-color: #00C8BE;
   color: white;
@@ -177,7 +177,7 @@ p {
   margin-right: 30px;
 }
 
-#my-projects .view {
+.view {
   background-color: white;
   border: 1px solid #EFCA16;
   color: #EFCA16;
@@ -334,21 +334,22 @@ footer .top a {
 }
 
 #content .texto {
-  width: 75%;
+  width: 70%;
   margin: auto;
+  text-align: justify;
 }
 
 #content h3 {
-  margin-top: 30px;
+  margin-top: 60px;
   font-weight: bolder;
   font-size: 35px;
   color: #00C8BE;
 }
 
-#content p {
+#content p, #content li {
   margin: 30px 0;
   line-height: 36px;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 #content .overview img {
@@ -360,11 +361,15 @@ footer .top a {
   width: 70%;
 }
 
+#content .accu {
+  font-weight: bold;
+}
+
 #paper {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(18%, #5de1da), color-stop(81%, #00c8be));
   background: linear-gradient(360deg, #5de1da 18%, #00c8be 81%);
   text-align: center;
-  margin: 50px 0;
+  margin: 50px 0 0 0;
 }
 
 #paper p {
@@ -380,6 +385,7 @@ footer .top a {
   margin-bottom: 40px;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-right: 30px;
 }
 
 /*----- dropdown links projects---- */
@@ -493,7 +499,7 @@ footer .top a {
     margin-right: 12px;
     padding: 12px 28px;
   }
-  #references .button, #references #my-projects .view, #my-projects #references .view {
+  #references .button, #references .view {
     padding: 10px 33px;
   }
   #references p {
