@@ -86,75 +86,56 @@
           <div class="texto row">
             <div class=" col-12">
               <h3>Overview</h3>
-              <p>This project goal was to create a machine learning model using big data in order to predict how many people will not show to a flight. The model that was presented the smallest percentage of error was the one using Random Forest. The aplication needs the following data in order to make the prediction: </p>
+              <p>The goal of this project was to create a machine learning model using big data in order to predict how many people won't show to a flight. The model that presented the smallest percentage of error Random Forest. The aplication needs the following data in order to make the prediction: </p>
 
               
-              <ul class="row" data-columns="">
-                <li class="col-md-6 col-sm-12">Hour of the flight</li>
-                <li class="col-md-6 col-sm-12">Weekday (in a number from 1 to 7)</li>
-                <li class="col-md-6 col-sm-12">Day of the flight(number)</li>
-                <li class="col-md-6 col-sm-12">Month of the flight (number)</li>
-                <li class="col-md-6 col-sm-12">Year of the flight</li>
-                <li class="col-md-6 col-sm-12">Total capacity of the airpline</li>
-                <li class="col-md-6 col-sm-12">Origin (capital letter)</li>
-                <li class="col-md-6 col-sm-12">Final destination (capital letter)</li>
+              <ul>
+                <li class="p2">Hour of the flight</li>
+                <li class="p2">Weekday (in a number from 1 to 7)</li>
+                <li class="p2">Day of the flight(number)</li>
+                <li class="p2">Month of the flight (number)</li>
+                <li class="p2">Year of the flight</li>
+                <li class="p2">Total capacity of the airpline</li>
+                <li class="p2">Origin (capital letter)</li>
+                <li class="p2">Final destination (capital letter)</li>
               </ul>
 
-              <video width="90%" autoplay  controls playsinline muted src="../images/copa-codigo2.mp4"></video>
+              <div class="video text-center">
+                <video width="90%" autoplay controls loop playsinline muted src="../images/copa-codigo2.mp4"></video>
+
+              </div>
 
               <p>
                As we only had 24h to complete this project we were able online to create a prototype of the application that was supposed to connect with the trained model.
               </p>
 
-              <video controls width=90% height= 500px autoplay src="../images/copa-proto.mp4"></video>
+              <video controls playsinline loop width=90% height= 500px autoplay src="../images/copa-prototipo.mp4"></video>
             </div>
           </div>
 
       
 
 
-        <div class="kickoff">
-          <div class="texto row">
+
+          <div class=" experience texto row">
             <div class=" col-12">
-              <h3>Kickoff</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, voluptatibus pariatur! Saepe quae cum neque iste sed consequatur consectetur, maiores perferendis. Id, aliquid quasi incidunt vero reprehenderit eligendi ad nulla!</p>
+              <h3>Experience</h3>
+              <p>When this experience started we had no idea how would it be, so everything was a complete surprise for us. When the 24h countdown began, our first goal was to have clean data. To accomplish this, we began to graph data that could be related to each other, in this way we were able to locate outliers in a very fast way. After this analysis, we proceeded to erase many rows that had missing values or outliers. This process took us approximately 5 hours.</p>
+
+              <p>Once our data was clean enough, we proceeded to prepare it for the training. So we erase those columns that were not important to determine if a person would show up or not. The next step was to replace the data that contained strings with numbers because to train correctly it is important to have quantitative data. </p>
+
+              <p>Then the time of training arrived, we first trained using a regression model but the percentage error was high, so we tried with classification but the same happened. At this point, we decided to give it a try to neural networks, but it was taking so much time that we decided to stop it. In the end, we found the best model, using a random forest regressor. </p>
+
+              <p>It was 3 am and the final presentation would start at 8 am, so we decided to present a more visual solution, by doing a mobile prototype. </p>
+
+              <p>At the end, all this effort was worth it since we were among the last 3 finalists </p>
+            </div>
+
+            <div class="fotos row">
+              <img class="img col-md-6 col-sm-12" src="../images/copa-exp1.jpeg">
+              <img class="img col-md-6 col-sm-12" src="../images/copa-exp2.jpeg">
             </div>
           </div>
-        </div>  
-
-
-        <div class="challenges">
-          <div class="texto row">
-            <div class=" col-12">
-              <h3>Key challenges</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, voluptatibus pariatur! Saepe quae cum neque iste sed consequatur consectetur, maiores perferendis. Id, aliquid quasi incidunt vero reprehenderit eligendi ad nulla!</p>
-            </div>
-          </div>
-
-          <div class="container text-center">
-            <div class="row fotos ">
-            
-            </div>
-          </div>
-        </div>  
-
-
-        <div class="results">
-          <div class="texto row">
-            <div class=" col-12">
-              <h3>Key results</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, voluptatibus pariatur! Saepe quae cum neque iste sed consequatur consectetur, maiores perferendis. Id, aliquid quasi incidunt vero reprehenderit eligendi ad nulla!</p>
-            </div>
-          </div>
-
-          <div class="container text-center">
-            <div class="row fotos ">
-              <div class="col-12">
-                <img src="../images/matriz.svg" alt="">
-              </div>
-            </div>
-          </div>
-        </div>  
        
 
 
