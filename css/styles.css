@@ -365,6 +365,10 @@ footer .top a {
   width: 70%;
 }
 
+#content .experience img {
+  width: 100%;
+}
+
 #content .accu {
   font-weight: bold;
 }
@@ -543,7 +547,7 @@ footer .top a {
     margin-top: 23px;
   }
   #paper p {
-    font-size: 20px;
+    font-size: 18px;
     width: 86%;
     margin: auto;
   }
