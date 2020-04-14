@@ -88,12 +88,12 @@ p {
 #skills img {
   width: 45px;
   padding: 20px 0;
-  display: block;
+  margin: 0;
   margin: auto;
 }
 
 #skills .small {
-  width: 126px;
+  width: 120px;
   height: 101px;
 }
 
