@@ -67,7 +67,7 @@
                 
                 <h1>BANANA SORTING SOFTWARE</h1>
                 <hr >
-                <h2>This <em> banana sorting software</em>  was created using convolutional neural networks and deep learning techniques.</h2>
+                <h2>This <em> banana sorting software</em>  was developed using convolutional neural networks and deep learning techniques.</h2>
               </div>
               
             </div>
@@ -84,7 +84,7 @@
           <div class="texto row">
             <div class=" col-12">
               <h3>Overview</h3>
-              <p> This is a software capable to do the distinction of the maturation state of the plantain: ripe, green or damaged, just by uploading a picture to the web app. Our long-term goal is to involve this type of software in industrial processes in order to automate the classification process.
+              <p> This software is capable to distinguish the maturation state of a plantain: ripe, green or damaged. The result is calculated by uploading a picture to the web app. Our long-term goal is to involve this type of software in industrial processes in order to automate the classification process.
               </p>
 
               <p>The classification software was created with python, using libraries like Tensorflow and OpenCv, which help us to train the convolutional network. After this was done, we uploaded the trained model to a web application that was developed using Flask, HTML and CSS.</p>
@@ -103,14 +103,21 @@
           <div class="texto row">
             <div class=" col-12">
               <h3>Kickoff</h3>
-              <p>This project started at April of 2019. It was separated into 3 phases, the first one consisted basically of the recolection of images that will be part of the dataset, at the end we were able to have 650 images of each state of maduration, so in total our dataset had almost 2000 images. </p>
+              <p>This project started at April of 2019. It was separated into 3 phases, the first one consisted in the recolection of images that will be part of the dataset. During the second phase the predictive neural network was created and at last the connection to the web application was established.</p>
+                
+                
+               <p> In the early phase, we encounter a problem that there were not enough plantain images images on the internet, for this reason the pictures that we used were taking by our team. Later on we took 650 images of each maduration state, so in total our dataset had almost 2000 images. </p>
 
               <p>
-                The second phase started once the dataset was created, and it consisted in creating a predictive classification program using CNN. To accomplish this, we first had to label the images using numbers, so after this was done we where able to train at least 8 different models so we can find the most accurate one. At the end the most accurate model was the one that performed 2 convolutions, used 256 neurons in each layer and did not use any dense layer in addition to the last one.
+                The second phase started once the dataset was created, and it consisted in creating a predictive classification program using CNN (Convolutional Neural Networks). We first had to label the images using numbers, so after this was done we where able to train at least 8 different models so we can find the most accurate one. The most accurate model was the one that had 2 convolutions, used 256 neurons in each layer and did not use any dense layer in addition to the last one.
               </p>
 
               <p>
-                As mentioned in the overview, after we found the most accurate model it was saved and connected to the web application. This software allows the user to upload the picture of the plantain of their choice so the software will make its final prediction, if it thinks the platain is: ripe, mature or damaged.
+                At the end, the most accurate model was saved. A web application was developed using Flask, in order to  allow the user interact with the model.</p>
+
+
+                <p>
+                The final result allows the user upload a picture of a plantain, getting as response a final prediction: ripe, mature or damaged.
               </p>
             </div>
           </div>
@@ -122,8 +129,9 @@
             <div class=" col-12">
               <h3>Key challenges</h3>
               <ul>
-                <li>One of the things that were really hard at the beggining was to accumulate the correct ammount of pictures, so the model would not memorize but actually learn. It is important to mention that all the pictures that we used, were taken by us, so they had to follow certain conditions such as taking the pictures from various angles, with different types of lighting and with the same background color (white). </li>
-                <li>Each model took a long time to be trained, so getting the one that was really the most efficient took us a long time. </li>
+                <li>The accumulation of the correct ammount of pictures was not easy, as we had to take at least 2000 pictures in order to create a model that actually learn. The picture had to meet certain conditions: various angles, different lighting and the same background color (white). </li>
+
+                <li>The testing period was longer than expected as the training of each of the 8 models required a lot of resources and time.</li>
               </ul>
             </div>
           </div>
@@ -133,8 +141,9 @@
           <div class="texto row">
             <div class=" col-12">
               <h3>Key results</h3>
-              <p><span class="accu">An accuracy of 96%</span> was achieved, since there were certain classifications that the model could not correctly predict, as shown by the confusion matrix below. It is observed that there were 18 images of green plantain which predicted that they would be ripe. As you can see, the classification of the mature ones was almost perfect, confusing only one with the green one. </p>
-              <p>In addition this project was finalist of "La Jornada de Iniciación Científica" (Scientific Initiation Contest) that was celebrated nationwide in Panama City.</p>
+              <p><span class="accu">An accuracy of 96%</span> was achieved (see the confussion matrix below). While testing, the model mistaknely predicted 23 images where the most common error was classifying green platains as ripped, in 18 different occations. A 100% accuracy was achieved while classifying the damaged plantains.  </p>
+             
+                <p>This project was finalist of national Science Fair, celebrated in Panama City, Panama. </p>
 
             </div>
           </div>
